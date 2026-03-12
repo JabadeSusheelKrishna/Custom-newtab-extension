@@ -3,6 +3,11 @@
   "name": "My Custom New Tab",
   "version": "1.0",
   "description": "Simple new tab with search and shortcuts",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
   "chrome_url_overrides": {
     "newtab": "index.html"
   }
